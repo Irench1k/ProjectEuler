@@ -1,4 +1,4 @@
-def fibonacci_sequence(max_value):
+def fibonacci_sequence(max_value: int) -> int:
     n1 = 0
     n2 = 1
     sum = 0
@@ -12,6 +12,7 @@ def fibonacci_sequence(max_value):
             sum = even_number + sum
         
     return sum
+
 
 result = fibonacci_sequence(4000000)
 print(f"The result is {result}")
