@@ -6,7 +6,7 @@ def get_factors(number: int) -> list[int]:
             factors.append(n)
             print(f"get_factors: {n}, {number}")
     return factors
-
+ 
 
 def is_prime(number: int) -> bool:
     """Takes a number and returns True if the number is prime."""
@@ -32,4 +32,4 @@ def get_biggest_prime_factor(number: int) -> int:
     return prime_factors[-1]
 
 
-print(get_biggest_prime_factor(2))
+print(get_biggest_prime_factor(6000))
