@@ -1,5 +1,4 @@
-def palindromic_number(number1: int, number2: int):
-    number = number1 * number2
+def is_palindromic(number):
     number = list(str(number))
     reversed_number = number[::-1]
     if number == reversed_number:
@@ -7,4 +6,4 @@ def palindromic_number(number1: int, number2: int):
     return "not a palidromic"
 
 
-print(palindromic_number(999, 999))
+print(is_palindromic(23))
