@@ -18,7 +18,6 @@ def solution(number_of_digits: int) -> int | None:
         for number2 in range(lower_border, upper_border):
             product = number1 * number2
             products.append(product)
-
     products.sort(reverse=True)
     for product in products:
         if is_palindromic(product):
