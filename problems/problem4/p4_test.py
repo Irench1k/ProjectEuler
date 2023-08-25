@@ -13,3 +13,4 @@ def is_palindromic(number: int) -> bool:
     last_digit = number % 10
 
     while first_digit == last_digit:
+        pass
