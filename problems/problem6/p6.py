@@ -9,7 +9,7 @@ def sum_of_the_sequance(n: int) -> float:
     return squared_sum
 
 
-def difference(n: int) -> int:
+def difference(n: int) -> float:
     sum1 = sum_of_squares(n)
     squared_sum = sum_of_the_sequance(n)
     result = squared_sum - sum1
